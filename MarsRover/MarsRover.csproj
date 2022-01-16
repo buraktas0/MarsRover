@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Basics\" />
+    <None Remove="Core\Basics\" />
+    <None Remove="Core\Handlers\" />
+    <None Remove="Business\" />
+    <None Remove="App\Mars\" />
+    <None Remove="Core\Event\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Core\" />
+    <Folder Include="Core\Model\" />
+    <Folder Include="Core\Parser\" />
+    <Folder Include="App\" />
+    <Folder Include="App\Mars\" />
+    <Folder Include="Core\Event\" />
+  </ItemGroup>
+</Project>
